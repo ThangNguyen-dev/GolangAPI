@@ -1,0 +1,14 @@
+### GET request with a header
+GET http://localhost:8000/v1/user?first_name=&last_name=nguyennd&id=4
+#GET http://localhost:8000/v1/user/1
+Accept: application/json
+
+### Send POST request with json body
+POST http://localhost:8000/v1/user
+Content-Type: application/json
+
+{
+  "age": 20,
+  "first_name": "content",
+  "last_name": "content"
+}
